@@ -213,20 +213,7 @@ function EnvelopeLanding({
               }}
             />
 
-            {/* Monogram whisper below flap tip */}
-            <div
-              className={
-                "pointer-events-none absolute inset-x-0 top-[42%] flex justify-center transition-opacity duration-300 " +
-                (breaking ? "opacity-0" : "opacity-100")
-              }
-            >
-              <div className="text-center">
-                <p className="font-serif text-[11px] italic tracking-[0.3em] text-ink/35">
-                  Barri &amp; Dr. Phinrikerbha
-                </p>
-                <div className="mx-auto mt-1 h-px w-14 bg-ink/15" />
-              </div>
-            </div>
+
 
             {/* Gold wax seal */}
             <div
@@ -691,16 +678,12 @@ function RsvpForm() {
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
           <label className="flex items-center gap-3 cursor-pointer group">
             <input required type="radio" name="attendance" value="Accepts" className="peer sr-only" />
-            <div className="w-4 h-4 rounded-full border border-ink/30 flex items-center justify-center peer-checked:border-ink transition-colors">
-              <div className="w-2 h-2 rounded-full bg-ink scale-0 peer-checked:scale-100 transition-transform"></div>
-            </div>
+            <div className="w-4 h-4 rounded-full border border-ink/30 peer-checked:bg-ink peer-checked:border-ink transition-colors"></div>
             <span className="font-serif text-lg italic text-ink/70 group-hover:text-ink transition-colors">Joyfully Accepts</span>
           </label>
           <label className="flex items-center gap-3 cursor-pointer group">
             <input required type="radio" name="attendance" value="Declines" className="peer sr-only" />
-            <div className="w-4 h-4 rounded-full border border-ink/30 flex items-center justify-center peer-checked:border-ink transition-colors">
-              <div className="w-2 h-2 rounded-full bg-ink scale-0 peer-checked:scale-100 transition-transform"></div>
-            </div>
+            <div className="w-4 h-4 rounded-full border border-ink/30 peer-checked:bg-ink peer-checked:border-ink transition-colors"></div>
             <span className="font-serif text-lg italic text-ink/70 group-hover:text-ink transition-colors">Regretfully Declines</span>
           </label>
         </div>
