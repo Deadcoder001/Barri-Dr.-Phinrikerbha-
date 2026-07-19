@@ -413,12 +413,12 @@ function Invitation() {
             In the presence of God &amp; loved ones
           </span>
 
-          <h1 className="font-serif text-[12vw] sm:text-6xl font-medium leading-[1.1] text-balance md:text-7xl lg:text-8xl">
-            <span className="italic block">Dr Phinri</span>
+          <h1 className="font-serif font-medium leading-[1.1] text-balance">
+            <span className="italic block text-[13vw] sm:text-6xl md:text-7xl lg:text-8xl">Dr Phinri</span>
             <span className="block my-2 text-2xl md:text-3xl font-normal not-italic opacity-40 md:text-4xl">
               &amp;
             </span>
-            <span className="italic block">Barri.B.M.Wahlang</span>
+            <span className="italic block text-[9.5vw] sm:text-5xl md:text-6xl lg:text-7xl">Barri.B.M.Wahlang</span>
           </h1>
 
           <div className="mx-auto my-6 md:my-8 flex items-center justify-center gap-2 md:gap-4">
