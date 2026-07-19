@@ -414,11 +414,11 @@ function Invitation() {
           </span>
 
           <h1 className="font-serif text-[12vw] sm:text-6xl font-medium leading-[1.1] text-balance md:text-7xl lg:text-8xl">
-            <span className="italic block">Barri</span>
+            <span className="italic block">Dr Phinri</span>
             <span className="block my-2 text-2xl md:text-3xl font-normal not-italic opacity-40 md:text-4xl">
               &amp;
             </span>
-            <span className="italic block">Dr. Phinrikerbha</span>
+            <span className="italic block">Barri.B.M.Wahlang</span>
           </h1>
 
           <div className="mx-auto my-6 md:my-8 flex items-center justify-center gap-2 md:gap-4">
@@ -508,7 +508,7 @@ function Invitation() {
                 Joyfully awaiting your response
               </h2>
               <p className="leading-relaxed text-ink/60 text-pretty">
-                We kindly request the favour of your reply by 15 September 2026.
+                We kindly request the favour of your reply by 15th September 2026.
               </p>
             </div>
 
@@ -528,7 +528,7 @@ function Invitation() {
 
         {/* Footer */}
         <footer className="relative z-10 border-t border-ink/10 py-16 text-center">
-          <p className="font-serif text-2xl italic text-ink/50">Barri &amp; Dr. Phinrikerbha</p>
+          <p className="font-serif text-2xl italic text-ink/50">Barri &amp; Dr Phinri</p>
           <p className="mt-3 text-[10px] uppercase tracking-[0.35em] text-ink/30">
             01 October 2026 · Shillong
           </p>
@@ -564,7 +564,9 @@ function DetailCard({
         <h3 className="mt-3 font-serif text-3xl md:text-4xl italic leading-tight">{title}</h3>
 
         <div className="mt-6 md:mt-8 space-y-4 md:space-y-6">
-          <Row label="When">{time}</Row>
+          <Row label="When">
+            <span className="text-[11px] font-medium uppercase tracking-[0.35em]">{time}</span>
+          </Row>
           <Row label="Where">
             <span className="font-serif text-base md:text-lg not-italic">{venue}</span>
             <br />
