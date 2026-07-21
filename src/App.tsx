@@ -418,7 +418,7 @@ function Invitation() {
             <span className="block my-2 text-2xl md:text-3xl font-normal not-italic opacity-40 md:text-4xl">
               &amp;
             </span>
-            <span className="italic block text-[9.5vw] sm:text-5xl md:text-6xl lg:text-7xl">Barri.B.M.Wahlang</span>
+            <span className="italic block text-[9.5vw] sm:text-5xl md:text-6xl lg:text-7xl">Barri</span>
           </h1>
 
           <div className="mx-auto my-6 md:my-8 flex items-center justify-center gap-2 md:gap-4">
@@ -430,7 +430,7 @@ function Invitation() {
           </div>
 
           <p className="font-serif text-base md:text-lg italic leading-relaxed text-ink/70 md:text-xl">
-            Mr. Barri BM Wahlang &amp; Dr. Phinrikerbha Blah request the honour of your
+            Dr. Phinri &amp; Barri.B.M.Wahlang request the honour of your
             presence as they unite in holy matrimony.
           </p>
         </div>
@@ -528,7 +528,7 @@ function Invitation() {
 
         {/* Footer */}
         <footer className="relative z-10 border-t border-ink/10 py-16 text-center">
-          <p className="font-serif text-2xl italic text-ink/50">Barri &amp; Dr Phinri</p>
+          <p className="font-serif text-2xl italic text-ink/50">Dr Phinri &amp; Barri.B.M.Wahlang</p>
           <p className="mt-3 text-[10px] uppercase tracking-[0.35em] text-ink/30">
             01 October 2026 · Shillong
           </p>
