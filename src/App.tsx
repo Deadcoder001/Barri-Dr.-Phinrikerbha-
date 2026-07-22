@@ -430,7 +430,7 @@ function Invitation() {
           </div>
 
           <p className="font-serif text-base md:text-lg italic leading-relaxed text-ink/70 md:text-xl">
-            Dr. Phinrikerbha &amp; Barri B.M Wahlang request the honour of your
+            Dr. Phinrikerbha Blah &amp; Barri B.M Wahlang request the honour of your
             presence as they unite in holy matrimony.
           </p>
         </div>
