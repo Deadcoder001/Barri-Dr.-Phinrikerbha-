@@ -528,7 +528,7 @@ function Invitation() {
 
         {/* Footer */}
         <footer className="relative z-10 border-t border-ink/10 py-16 text-center">
-          <p className="font-serif text-2xl italic text-ink/50">Dr Phinri &amp; Barri B.M. Wahlang</p>
+          <p className="font-serif text-2xl italic text-ink/50">Dr Phinri &amp; Barri</p>
           <p className="mt-3 text-[10px] uppercase tracking-[0.35em] text-ink/30">
             01 October 2026 · Shillong
           </p>
