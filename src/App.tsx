@@ -430,7 +430,7 @@ function Invitation() {
           </div>
 
           <p className="font-serif text-base md:text-lg italic leading-relaxed text-ink/70 md:text-xl">
-            Dr. Phinri &amp; Barri B.M Wahlang request the honour of your
+            Dr. Phinrikerbha &amp; Barri B.M Wahlang request the honour of your
             presence as they unite in holy matrimony.
           </p>
         </div>
@@ -471,7 +471,7 @@ function Invitation() {
               title="Reception"
               time="5:00 PM onwards"
               venue="The Ratson Pavillion"
-              address="Mawlong, Opposite Shillong Hyundai, Shillong"
+              address="Mawiong, Opposite Shillong Hyundai, Shillong"
             />
           </div>
 
@@ -492,8 +492,8 @@ function Invitation() {
               />
               <MapCard
                 label="Reception"
-                venue="The Ratson Pavillion, Mawlong"
-                query="The Ratson Pavillion, Mawlong, Shillong"
+                venue="The Ratson Pavillion, Mawiong"
+                query="The Ratson Pavillion, Mawiong, Shillong"
               />
             </div>
           </section>
